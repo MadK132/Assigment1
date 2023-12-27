@@ -11,7 +11,7 @@ public class MyApplication {
             String input = sc.nextLine();
 
             if (input.equals("done")) {
-                break; // Exit the loop if "done" is entered
+                break;
             }
 
             Scanner lineScanner = new Scanner(input);
